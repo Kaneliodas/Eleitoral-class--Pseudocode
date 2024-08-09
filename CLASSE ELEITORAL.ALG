@@ -1,16 +1,16 @@
 Algoritmo "Classe eleitoral"
 //Leia a idade de uma pessoa e verifique seu voto.
-//e o voto á obrigatório entre 18 e 64.
+//e o voto Ã¡ obrigatÃ³rio entre 18 e 64.
 var
 idade: inteiro
 inicio
 escreva("digite sua idade: ")
 leia(idade)
 se (idade < 16)    entao
-escreva(" Não é eleitor.")
+escreva(" NÃ£o Ã© eleitor.")
 senao
-se (idade > 18) e (idade < 65) entao
-escreva(" O voto é obrigatório. ")
+se (idade >= 18) e (idade < 65) entao
+escreva(" O voto Ã© obrigatÃ³rio. ")
 senao
 se (idade > 16) ou (idade < 18) ou (idade > 65)  entao
 escreva(" Eleitor facultativo.")
